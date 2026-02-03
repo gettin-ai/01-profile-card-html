@@ -1,0 +1,72 @@
+/* blank stylesheet — add styles here */
+
+body {
+  background-color: turquoise;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+/* add Google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* make main look like a simple card and center it */
+main {
+  max-width: 380px;
+  margin: 0.5rem auto;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.12);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* added styles */
+h1 {
+  color: red;
+  font-size: 1.75rem;
+  margin: 0.25rem 0;
+}
+
+/* slightly darker red for h2 */
+h2 {
+  color: #cc0000;
+  margin: 0.25rem 0;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.role {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+.bio {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0.25rem auto;
+  max-width: 60ch;
+}
+
+/* style profile image */
+.profile-image {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+/* style list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0;
+}
+
+li {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
